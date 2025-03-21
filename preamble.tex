@@ -1,0 +1,41 @@
+\usepackage{geometry}
+\geometry{a4paper,margin=1.5cm,footskip=2em}
+
+\usepackage[table]{xcolor}
+
+\usepackage{pgfpages}
+\pgfpagesuselayout{2 on 1}[a4paper,border shrink=0pt,landscape]
+
+\usepackage{fontawesome5}
+\usepackage{ragged2e}
+\usepackage{parskip}
+
+\usepackage{booktabs,makecell,xltabular}
+
+\usepackage[T1]{fontenc}
+\usepackage[lf,default]{FiraSans}
+\usepackage{zi4}
+
+\usepackage{regexpatch}
+\usepackage[os=mac]{menukeys}
+\renewmenumacro{\keys}[+]{shadowedroundedkeys}
+\renewmenumacro{\menu}[>]{angularmenus}
+\xpatchcmd*{\SPACE}{2em}{1em}{}{}
+
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+\renewcommand{\arraystretch}{1.4}
+\arrayrulecolor{gray!60!white}
+
+\makeatletter
+\renewcommand{\maketitle}{{\centering\sffamily{\LARGE\bfseries\@title}\par\vskip\baselineskip{\large\@date}\par}\vskip\baselineskip}
+% nifty commands by Paul Gaborit from http://tex.stackexchange.com/a/236891/226
+\def\setmenukeyswin{\def\tw@mk@os{win}}
+\def\setmenukeysmac{\def\tw@mk@os{mac}}
+\makeatother
+
+\usepackage{hyperref}
+\urlstyle{same}
+% latex command displaced in text
+\newcommand{\tex}[1]{\textbackslash\texttt{#1}}
+
+\usepackage{amsmath,amssymb,amsfonts,amsthm}

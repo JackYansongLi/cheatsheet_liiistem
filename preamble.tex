@@ -1,5 +1,5 @@
 \usepackage{geometry}
-\geometry{a4paper,margin=1.5cm,footskip=2em}
+\geometry{a4paper,margin=1cm,footskip=1em}
 
 \usepackage[table]{xcolor}
 
@@ -40,3 +40,7 @@
 \newcommand{\tex}[1]{\textbackslash\texttt{#1}}
 
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
+
+\newcommand{\inputrow}[4]{%
+  \makecell{\keys{#1}} & \makecell{\keys{#2}} & $\csname #3\endcsname$ (\tex{#3} in #4) \\* \midrule
+}

@@ -17,6 +17,10 @@
 \usepackage[lf,default]{FiraSans}
 \renewcommand{\ttdefault}{FiraSans} % Use FiraSans for monospace text
 
+% 改善大写I的显示清晰度 - 使用有衬线的字体，大写I带上下横线
+\usepackage{charter} % 使用Charter字体，大写I有非常清晰的上下横线
+\renewcommand{\familydefault}{\rmdefault}
+
 \usepackage{regexpatch}
 \usepackage[os=mac]{menukeys}
 \renewmenumacro{\keys}[+]{shadowedroundedkeys}

@@ -3,10 +3,10 @@
 
 %%%%%%%%%%%%%%%%%%%% Non-breaking space
 \makecell{%
-    \keys{space + tab}} &
+  \keys{space + tab}} &
 
 \makecell{%
-    \keys{space + tab}} &
+  \keys{space + tab}} &
 Non-breaking space ($\backslash$nbsp or $\sim$ )
 \\*
 \midrule
@@ -15,10 +15,10 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% indent
 \makecell{%
-    \keys{ctrl + t}} &
+  \keys{ctrl  +t}} &
 
 \makecell{%
-    $\backslash$} &
+  $\backslash$} &
 \tex{indent}
 \\*
 \midrule
@@ -26,10 +26,10 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% raggedleft 
 \makecell{%
-    \keys{ctrl + l}} &
+  \keys{ctrl +l}} &
 
 \makecell{%
-    $\backslash$} &
+  $\backslash$} &
 \tex{raggedleft}
 \\*
 \midrule
@@ -37,10 +37,10 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% centering 
 \makecell{%
-    \keys{ctrl + e}} &
+  \keys{ctrl +e}} &
 
 \makecell{%
-    $\backslash$} &
+  $\backslash$} &
 \tex{centering }
 \\*
 \midrule
@@ -48,10 +48,10 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% raggedright
 \makecell{%
-    \keys{ctrl + r}} &
+  \keys{ctrl +r}} &
 
 \makecell{%
-    $\backslash$} &
+  $\backslash$} &
 \tex{raggedright}
 \\*
 \midrule
@@ -59,10 +59,10 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% section
 \makecell{%
-    \keys{alt + 1}} &
+  \keys{alt +1}} &
 
 \makecell{%
-    \keys{option + 1}} &
+  \keys{option +1}} &
 \tex{section}
 \\*
 \midrule
@@ -70,10 +70,10 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% subsection
 \makecell{%
-    \keys{alt + 2}} &
+  \keys{alt +2}} &
 
 \makecell{%
-    \keys{option + 2}} &
+  \keys{option +2}} &
 \tex{subsection}
 \\*
 \midrule
@@ -81,10 +81,10 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% subsubsection
 \makecell{%
-    \keys{alt + 3}} &
+  \keys{alt +3}} &
 
 \makecell{%
-    \keys{option + 3}} &
+  \keys{option +3}} &
 \tex{subsubsection}
 \\*
 \midrule
@@ -92,21 +92,42 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% paragraph
 \makecell{%
-    \keys{alt + 4}} &
+  \keys{alt + 4}} &
 
 \makecell{%
-    \keys{option + 4}} &
+  \keys{option +  4}} &
 \tex{paragraph}
 \\*
 \midrule
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%% itemize
+%%%%%%%%%%%%%%%%%%%% subparagraph
 \makecell{%
-    \keys{{+} + tab}} &
+  \keys{alt + 5}} &
 
 \makecell{%
-    \keys{{+} + tab}} &
+  \keys{option + 5}} &
+\tex{subparagraph}
+\\*
+\midrule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%% appendix
+\makecell{%
+  \keys{alt + 6}} &
+
+\makecell{%
+  \keys{option + 6}} &
+\tex{appendix}
+\\*
+\midrule
+
+%%%%%%%%%%%%%%%%%%%% itemize
+\makecell{%
+  \keys{{+} + tab}} &
+
+\makecell{%
+  \keys{{+} + tab}} &
 \tex{itemize}
 \\*
 \midrule
@@ -125,10 +146,10 @@ Non-breaking space ($\backslash$nbsp or $\sim$ )
 
 %%%%%%%%%%%%%%%%%%%% inline math mode
 \makecell{%
-    \keys{\$}} &
+  \keys{\$}} &
 
 \makecell{%
-    \keys{\$}} &
+  \keys{\$}} &
 inline math mode
 \\*
 \midrule
@@ -136,10 +157,10 @@ inline math mode
 
 %%%%%%%%%%%%%%%%%%%% single-line math mode
 \makecell{%
-    \keys{alt + \$}} &
+  \keys{alt + \$}} &
 
 \makecell{%
-    \keys{option + \$}} &
+  \keys{option + \$}} &
 single-line math mode
 \\*
 \midrule
@@ -147,21 +168,32 @@ single-line math mode
 
 %%%%%%%%%%%%%%%%%%%% multi-line math mode
 \makecell{%
-    \keys{alt + \shift + 7}} &
+  \keys{alt  + \&}} &
 
 \makecell{%
-    \keys{option + \shift + 7}} &
-multi-line math mode, do not recommend, use \tex{align} instead.
+  \keys{option + \&}} &
+multi-line math: eqnarray
+\\*
+\midrule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%% multi-line math mode
+\makecell{%
+  \keys{ctrl + \$}} &
+
+\makecell{%
+  \keys{ctrl + \$}} &
+multi-line math: align
 \\*
 \midrule
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%% add equation number
 \makecell{%
-    \keys{ctrl + \#}} &
+  \keys{ctrl + \#}} &
 
 \makecell{%
-    \keys{ctrl + \#}} &
+  \keys{ctrl + \#}} &
 add equation number
 \\*
 \midrule
@@ -169,10 +201,10 @@ add equation number
 
 %%%%%%%%%%%%%%%%%%%% matrix 
 \makecell{%
-    \keys{alt + arrow}} &
+  \keys{alt  + arrow}} &
 
 \makecell{%
-    \keys{option + arrow}} &
+  \keys{option + arrow}} &
 add new row/column in \textit{matrix/table/choice/stack}
 \\*
 \midrule
@@ -180,10 +212,10 @@ add new row/column in \textit{matrix/table/choice/stack}
 
 %%%%%%%%%%%%%%%%%%%% footnote
 \makecell{%
-    \keys{ctrl + \shift + f}} &
+  \keys{ctrl \shift + f}} &
 
 \makecell{%
-    \keys{ctrl + \shift + f}} &
+  \keys{ctrl \shift + f}} &
 add footnote
 \\*
 \midrule
@@ -191,10 +223,10 @@ add footnote
 
 %%%%%%%%%%%%%%%%%%%% add new script
 \makecell{%
-    \keys{ctrl + n}} &
+  \keys{ctrl + n}} &
 
 \makecell{%
-    \keys{cmd + n}} &
+  \keys{cmd + n}} &
 add new script
 \\*
 \midrule
@@ -202,10 +234,10 @@ add new script
 
 %%%%%%%%%%%%%%%%%%%% export to PDF
 \makecell{%
-    \keys{ctrl + p}} &
+  \keys{ctrl + p}} &
 
 \makecell{%
-    \keys{cmd + p}} &
+  \keys{cmd + p}} &
 export to PDF
 \\*
 \midrule
